@@ -19,7 +19,7 @@ input = gets.chomp.split("")
 # itertes and counts
 # p input.each_with_object(Hash.new(0)) { |i, counts| counts[i] += 1 }
 
-#count ocurrences of every letter
+#count iterate and ocurrences of every letter
 input.each_with_index do |element|
   p "#{element} appears #{input.count(element)} times"
 end
